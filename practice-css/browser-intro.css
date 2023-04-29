@@ -1,0 +1,41 @@
+ p {
+	color: green;
+}
+
+p.info {
+	font-size: small;
+}
+
+h1 { 
+	text-shadow:1px 2px navy;
+	color: white;
+}
+
+h2 {
+	margin: 5px;
+	font-family: cursive;
+	color: #3f3faf;
+	background:linear-gradient(to right, white, #ffefaf);
+}
+
+div#zentai {
+	display: grid;
+	flex-direction: row;
+	grid-auto-rows: 200px;
+	grid-gap: 10px;
+	grid-template-columns:1fr 1fr;
+	padding: 5px;
+	
+	
+}
+
+div#zentai > div {
+	margin: 0;
+	background-color: #ffefaf;
+    padding: 5px;
+	
+}
+
+img{
+	float:right;
+}
