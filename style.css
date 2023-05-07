@@ -1,0 +1,43 @@
+p{
+    color: navy;
+    font-size: small;
+    font-style: oblique;
+}
+li{
+    color: navy;
+    font-size: small;
+}
+h1{
+    text-shadow: 1px 3px yellowgreen;
+    color: white;
+    background-color: bisque;
+    border-bottom-style: dotted;
+    background:linear-gradient(to right, bisque, white);
+}
+h2{
+    margin: 5px;
+    font-family: arial;
+    color: plum;
+}
+h3{
+    font-family: cursive;
+    color: pink;
+}
+a{
+    color: pink;
+}
+a:hover{
+    color: green;
+}
+div#zentai{
+    display: grid;
+	flex-direction: row;
+	grid-auto-rows: 400px;
+	grid-gap: 10px;
+	grid-template-columns:1fr 1fr;
+	padding: 5px;
+}
+div#zentai > div{
+    background-color: bisque;
+    border:dashed palegoldenrod;
+}
