@@ -1,0 +1,30 @@
+body{
+    color: navy;
+    font-size: medium;
+    background-color: wheat;
+}
+h1{
+    margin-top: 0;
+    font-size: 3em;
+    color: blueviolet;
+    text-align: center;
+    border-bottom-style: dotted;
+}
+div.weather-container {
+    display: grid;
+	flex-direction: row;
+	grid-auto-rows: 100px;
+	grid-gap: 10px;
+	grid-template-columns:1fr 1fr;
+	padding: 5px;
+    display: grid;
+    border-radius: 10px;
+}
+div.weather-container > div{
+    border:dotted pink;
+    grid-gap: 20px;
+    background-color: skyblue;
+  }
+a:hover{
+    color: red;
+}
