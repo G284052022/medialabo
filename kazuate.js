@@ -39,7 +39,7 @@ function hantei() {
         }
     }
   }else{
-    console.log('答えは' +kotae+ 'でした．すでにゲームは終わっています');
+    document.getElementById("result").textContent = '答えは' +kotae+ 'でした．すでにゲームは終わっています';
   }
   kaisu++;
   // 課題3-1: 正解判定する
