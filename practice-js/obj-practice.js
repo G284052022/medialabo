@@ -1,4 +1,4 @@
-//////////////// ここは書き換えてはいけない！ 
+//////////////// ここは書き換えてはいけない！
 
 let campus = {
 	address: "八王子市館町",
@@ -6,6 +6,10 @@ let campus = {
 	lon: 35.624869704425,
 	lat: 139.28201056633
 };
+console.log(campus.address);
+for(let n of campus.buildingD){
+	console.log(n);
+}
 
 let gakka = [
 	{name: "機械システム工学科", ename: "Department of Mechanical Systems Engineering"},
@@ -15,4 +19,6 @@ let gakka = [
 ];
 
 //////////////// ここから下にプログラムを書きたそう!
-
+for(let n of gakka){
+	console.log(n.name);
+}
