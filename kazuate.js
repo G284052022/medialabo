@@ -8,7 +8,6 @@ let kaisu = 1;
 // 代わりにここでは，ボタンを押したら hantei() を呼び出すイベント処理をする
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
-    
   // 将来ここでは 4 ではなくテキストボックスに指定された数値を yoso に代入する
   let yoso = parseInt(document.getElementById("guess").value);
   document.getElementById("kaisu").textContent = kaisu;
@@ -39,4 +38,5 @@ function hantei() {
   // 課題3-1: 正解判定する
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
-}document.getElementById("sumbit").addEventListener("click",hantei);
+}
+document.getElementById("sumbit").addEventListener("click",hantei);
