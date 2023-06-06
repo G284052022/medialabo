@@ -5,14 +5,15 @@ p{
 }
 li{
     color: navy;
-    font-size: small;
+    font-size: large;
 }
 h1{
-    text-shadow: 1px 3px yellowgreen;
+    text-shadow: 1px 3px rgb(180, 232, 76);
     color: white;
-    background-color: bisque;
+    background-color:rgb(170, 216, 234) ;
     border-bottom-style: dotted;
-    background:linear-gradient(to right, bisque, white);
+    background:linear-gradient(to right, rgb(196, 228, 240), white);
+    text-align: center;
 }
 h2{
     margin: 5px;
@@ -23,21 +24,45 @@ h3{
     font-family: cursive;
     color: pink;
 }
+h4{
+    text-align: center;
+    text-shadow: 1px 3px rgb(182, 213, 116);
+    color: rgb(222, 4, 222);
+    font-size: 1.5em;
+}
+h5{
+    text-shadow: 1px 3px rgb(180, 232, 76);
+    color: white;
+    background-color:rgb(197, 230, 243) ;
+    border-bottom-style: dotted;
+    font-size: 2em;
+}
+h6{
+    font-size: large;
+    text-shadow: 1px 3px rgb(180, 232, 76);
+    color: white;
+    background-color:rgb(170, 216, 234) ;
+    background:linear-gradient(to right, rgb(196, 228, 240), white);
+}
+
 a{
     color: pink;
 }
 a:hover{
-    color: green;
+    color: rgb(123, 214, 123);
 }
 div#zentai{
     display: grid;
 	flex-direction: row;
 	grid-auto-rows: 400px;
 	grid-gap: 10px;
-	grid-template-columns:1fr 1fr;
-	padding: 5px;
+    padding: 5px;
+	
 }
 div#zentai > div{
-    background-color: bisque;
+    background-color:rgb(200, 217, 167) ;
     border:dashed palegoldenrod;
+}
+body{
+    background-color:rgb(237, 230, 217);
 }

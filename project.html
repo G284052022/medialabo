@@ -3,38 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>課題1-4</title>
-    <link rel="stylesheet"href ="project.css">
+    <link rel="stylesheet" href ="project.css">
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src ="weather.js" defer></script>
   </head>
   <body>
-    <h1>東京天気</h1>
-    <div class="weather-container">
-    <div>
-    <p>name(都市名):  東京都</p>
-    </div>
-    <div>
-    <p>coord.lon(緯度):  35"42 </p>
-    <p>coord.lat(経度):  139"46</p>
-    </div>
-    <div>
-    <p>weather.description(天気):  晴れる</p>
-    </div>
-    <div>
-    <p>main.temp-min(最低気温):  13度</p>
-    <p>main.temp-max(最高気温):  22度</p>
-    </div>
-    <div>
-    <p>main.humidity(湿度):  47%</p>
-    </div>
-    <div>
-    <p>wind.speed(風速):  5m/s</p>
-    </div>
-    <div>
-    <p>wind.deg(風向):  東</p>
-    </div>
-    <div>
-    <ul>
-      <li><a href="https://weather.yahoo.co.jp/">東京天気</a></li>
-    </ul>
-    </div>
-    </div>
-  </body>
+    <h1>世界天気予報</h1>
+    <label for="citySelect"></label>
+    <select name = "citySelect" id ="citySelect">
+      <option value="">都市を選択</option>
+      <option value="360630">カイロ （エジプト）</option>
+      <option value="524901">モスクワ （ロシア）</option>
+      <option value="993800">ヨハネスブルク （南アフリカ）</option>
+      <option value="1816670">北京 （中華人民共和国）</option>
+      <option value="1850147">東京 （日本）</option>
+      <option value="1880252"> シンガポール</option>
+      <option value="2147714"> シドニー （オーストラリア）</option>
+      <option value="2643743"> ロンドン （イギリス）</option>
+      <option value="2968815">パリ （フランス）</option>
+      <option value="3451189">リオデジャネイロ （ブラジル）</option>
+      <option value="5128581">ニューヨーク （アメリカ合衆国）</option>
+      <option value="5368361">ロサンゼルス （アメリカ合衆国）</option>
+      </select>
+
+        <button id="search">検索</button>
+      <br>
+      <br>
+      <div id ="name">都市名:</div>
+      <br>
+      <div id ="weather">天気:</div>
+      <br>
+      <div id ="temp_max">最高気温:</div>
+      <br>
+      <div id ="temp_min">最低気温:</div>
+      <br>
+      <div id ="lat">経度:</div>
+      <br>
+      <div id ="lon">緯度:</div>
+      <br>
+      <div id ="humidity">湿度:</div>
+      <br>
+      <div id ="windspeed">風速:</div>
+      <br>
+      <div id ="winddeg">風向:</div>
+    </body>
+  </html>
