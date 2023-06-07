@@ -1,13 +1,14 @@
  p {
-	color: green;
+	color: navy;
 }
 
 p.info {
 	font-size: small;
+	background-color: #dfdfdf;
 }
 
 h1 { 
-	text-shadow:1px 2px navy;
+	text-shadow:2px 2px 5px navy;
 	color: white;
 }
 
@@ -20,22 +21,24 @@ h2 {
 
 div#zentai {
 	display: grid;
-	flex-direction: row;
+	width: 1024px;
 	grid-auto-rows: 200px;
 	grid-gap: 10px;
 	grid-template-columns:1fr 1fr;
-	padding: 5px;
+	padding: 5px 5px 5px 5px;
 	
 	
 }
 
 div#zentai > div {
-	margin: 0;
+	margin-left: 5px;
 	background-color: #ffefaf;
-    padding: 5px;
 	
 }
 
 img{
 	float:right;
+	width: 100px;
+	height: 100px;
+	margin: 10px 0 10px 10px;
 }
